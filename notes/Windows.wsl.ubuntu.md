@@ -2,7 +2,7 @@
 id: ay6zbbwa3z4ifc8cqew79ss
 title: ubuntu
 desc: ''
-updated: 1708085420720
+updated: 1708425366036
 created: 1708084240655
 ---
 
@@ -17,3 +17,6 @@ nameserver 8.8.8.8
 ```
 
 > this is one of the addresses provided by google
+
+## Windows Clipboard not accessible in wsl
+
