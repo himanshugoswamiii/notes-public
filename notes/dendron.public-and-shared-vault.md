@@ -2,7 +2,7 @@
 id: rz8wd90nj8fal5fewq3uia8
 title: Public and Shared Vault
 desc: ''
-updated: 1708413481608
+updated: 1708414804088
 created: 1708412516848
 ---
 
@@ -21,6 +21,12 @@ To make public and shared vault
 
 ### Imp : For me
 If you want to share all the notes in another machine, then in your workspace folder initialze a git repo (like how we normally do)
+
+### Wow point
+
+Once you've have cloned your workspace (from github) in your other device you don't have to do anything like git clone in the remote repo. Dendron will automatically clone your files in the remote repo
+
+> i.e this is the best workflow for using multiple repo for different vaults
 
 ## Reference
 
