@@ -1,6 +1,6 @@
 ---
 id: wa9eph42wnq6gen3ai82i86
-title: Learn-css
+title: Learn CSS
 desc: ''
 updated: 1708070402119
 created: 1708067888379

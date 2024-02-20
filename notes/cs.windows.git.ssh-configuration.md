@@ -1,21 +1,36 @@
 ---
 id: v1fvebmjnow6fymca4xpcbq
-title: Ssh Configuration
+title: SSH Configuration
 desc: ''
-updated: 1708433655495
+updated: 1708434173373
 created: 1708428820389
 ---
 
 ### Prerequisites :
-- Install [[windows.git]]
+- Install [[cs.windows.git]]
 - Add your `user.name` and `user.email` in `git config --global`
 
 ## Best Way
 
-- https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example
+- Reference : https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example
+- No need for `ssh-agent`
 
+Open Windows Terminal (No admin privileges required)
 
-## Github Article Way (Bad-Way 🥲)
+### 1. Genereate the key
+
+```powershell
+ssh-keygen -o -t rsa -C "himanshugoswami.12feb@gmail.com"
+```
+
+### 2. In your `~/.ssh` in windows
+Look for these 2 files : `id_rsa` and `id_rsa.pub`
+
+Copy the `.pub` file and paste it into Github
+
+---
+
+## Github Article Way (Bad-Way)
 
 Do these steps in git bash  
 - Git Bash is a commonly used tool on Windows for Git-related operations and provides compatibility with the majority of Git commands and workflows.

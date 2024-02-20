@@ -1,9 +1,9 @@
 ---
-id: 2u6lg94vfxyozmorqn8ukk8
-title: wsl
+id: mr6ij4fhyf3m2ympmkx6h9h
+title: Wsl
 desc: ''
-updated: 1708084139317
-created: 1708080338287
+updated: 1708435680919
+created: 1708435339736
 ---
 
 ## PreRequisites

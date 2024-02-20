@@ -1,12 +1,14 @@
 ---
-id: ay6zbbwa3z4ifc8cqew79ss
-title: ubuntu
+id: 3ktq52rkrghigzirut4p8gk
+title: Problems
 desc: ''
-updated: 1708425366036
-created: 1708084240655
+updated: 1708435807438
+created: 1708427212584
 ---
 
-## Error
+### Unable to access images from windows to wsl (when using clipboard)
+
+---
 
 ### `ign` when running update or installing a package 
 
@@ -18,5 +20,4 @@ nameserver 8.8.8.8
 
 > this is one of the addresses provided by google
 
-## Windows Clipboard not accessible in wsl
-
+---
