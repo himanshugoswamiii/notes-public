@@ -2,7 +2,7 @@
 id: y9pod28b15404bvzfvaqp83
 title: fzf
 desc: ''
-updated: 1708456303700
+updated: 1708506246581
 created: 1708453817719
 ---
 
@@ -32,7 +32,15 @@ Reference : https://wiki.archlinux.org/title/fzf
 nvim -o `fzf`
 ```
 
+or
+
+```bash
+nvim -o $(fzf)
+```
+
 This will find the files and when you select that file it'll open in neovim
+
+> **Note:** The second syntax is generally recommended
 
 #### Exact match
 
