@@ -2,7 +2,7 @@
 id: y9pod28b15404bvzfvaqp83
 title: fzf
 desc: ''
-updated: 1708506246581
+updated: 1709135618458
 created: 1708453817719
 ---
 
@@ -66,6 +66,25 @@ cd **<TAB>
 ```
 
 > Note: You don't have to write `<TAB>`, just press it
+
+---
+
+### fzf to search commands history
+
+You need to have `fzf keybindings` for this :
+
+Add to your `.zshrc` : 
+```bash
+if [ -f /usr/share/fzf/key-bindings.zsh ]; then
+    source /usr/share/fzf/key-bindings.zsh
+fi
+```
+
+- Now you can use `Ctrl+R` to search history using `fzf`
+
+> Imp : For this to work you should have `zsh_history` turned on
+
+[[cs.linux.shell.zsh#history]]
 
 ---
 

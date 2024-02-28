@@ -2,7 +2,7 @@
 id: xl6ynczfz35gmg1yiyfxvfd
 title: Helix Editor
 desc: ''
-updated: 1708980829533
+updated: 1709130293932
 created: 1708967799178
 ---
 
@@ -56,3 +56,18 @@ Use `,` to get out of mulitple cursor
 gh : go to the start of the line
 gl : go to the end of the line
 gd : go to the definition
+
+---
+
+## Configuration
+
+### LSP
+
+Check helix health using : `helix --health`
+
+#### Python
+Install LSP for python : 
+
+```bash
+sudo pacman -S python-lsp-server
+```
