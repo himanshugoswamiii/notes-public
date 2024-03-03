@@ -2,7 +2,7 @@
 id: gifvyk24oehjtxf42gimji8
 title: Nvidia
 desc: ''
-updated: 1709450514697
+updated: 1709450915359
 created: 1709450201399
 ---
 
@@ -13,7 +13,7 @@ created: 1709450201399
 $ envycontrol --query
 hybrid
 ```
-
+## Change graphics card to integrated
 ```bash
 $ sudo envycontrol -s integrated
 [sudo] password for hg: 
@@ -24,3 +24,5 @@ Successfully rebuilt the initramfs!
 Operation completed successfully
 Please reboot your computer for changes to take effect!
 ```
+
+> Note: *External screen* won't work with this in Asus TUF (it could be that HDMI output is using Nvidia GPU)
