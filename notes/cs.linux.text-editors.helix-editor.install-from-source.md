@@ -2,7 +2,7 @@
 id: jre1lif6kmflrldqh6bf2lr
 title: Install from Source
 desc: ''
-updated: 1709706274736
+updated: 1709872467761
 created: 1709703758475
 ---
 
@@ -45,7 +45,7 @@ HELIX_RUNTIME=~/Source-Code/helix/runtime
 
 ```
 
-*Solution:* Instead of the above. Go to the `~/Source-Code/helix` diectory and run :
+*Solution:* Instead of the above. Go to the `~/Source-Code/helix`(helix source code) diectory and run :
 ```bash
 ln -Ts $PWD/runtime ~/.config/helix/runtime
 ```
